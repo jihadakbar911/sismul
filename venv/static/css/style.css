@@ -1,6 +1,92 @@
 /**********************************/
 /********** General CSS ***********/
 /**********************************/
+
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7e6; /* Warna latar oranye muda */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header, footer {
+    background-color: #ff8303; /* Warna oranye */
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #ff8303;
+}
+
+button, .btn {
+    background-color: #ff8303;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover, .btn:hover {
+    background-color: #e67300; /* Warna oranye gelap */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #ff8303;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #ff8303;
+}
+
+a:hover {
+    color: #e67300;
+}
+
+/* Warna oranye */
+.bg-orange {
+    background-color: #ff6b00 !important;
+}
+.text-orange {
+    color: #ff6b00 !important;
+}
+
+/* Sidebar */
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    padding-top: 20px;
+}
+
+/* Card Statistik */
+.card {
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+
 body {
     color: #666666;
     font-family: 'Open Sans', sans-serif;
